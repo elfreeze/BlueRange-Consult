@@ -1,3 +1,50 @@
-body {
-  background: orange;
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@0;1&family=Scheherazade+New:wght@400;700&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-decoration: none;
+  color: #000;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  height: 100px;
+  width: 100%;
+}
+
+.title {
+
+}
+
+.title a {
+  font-family: 'Scheherazade New', serif;
+  font-size: 40px;
+  color: #002D62;
+}
+
+.logo-container {
+  height: 100%;
+}
+
+.logo-container img{
+  height: 100%;
+}
+
+.nav-links {
+
+}
+
+.nav-link {
+  font-family: 'Andada Pro', serif;
+  font-size: 20px;
+  color: #002D62;
+  margin: 0 20px;
+}
+
